@@ -4600,7 +4600,7 @@ table.table a.btn.btn-indigo { color: #fff; }
 .blue-ic:hover, .blue-ic:focus { color: #1976d2; }
 
 a.btn:not([href]):not([tabindex]), a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover { color: #fff; }
-
+.current_research {width: 200px; height: 150px; border: 2px solid black;}
 table.table a.btn.btn-blue { color: #fff; }
 
 .btn-outline-blue { border: 2px solid #1976d2 !important; background-color: transparent !important; color: #1976d2 !important; }
