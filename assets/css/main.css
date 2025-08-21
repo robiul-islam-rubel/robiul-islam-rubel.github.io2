@@ -11138,7 +11138,7 @@ body { color: #3c4858; background-color: #fdfdfd; -webkit-text-size-adjust: 100%
 
 .table { color: #3c4858; }
 
-.navbar a { color: #3c4858 !important; }
+.navbar a { color: white !important; }
 
 footer a { color: #fafafa; }
 footer a:hover { color: #b71c1c; }
@@ -11217,8 +11217,21 @@ progress { position: fixed; left: 0; top: 56px; z-index: 10; width: 100%; height
 
 .progress-bar { display: block; width: 0%; height: inherit; }
 
-.profile-img { max-width: 100%; height: auto; border-radius: 50% !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; max-width: 200px; }
+.profile-img {
+  width: 200px;
+  height: 220px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.profile-img img {
+  max-width: 175px;
+}
 
+.portrait-title {
+
+  font-size: 1rem;
+
+}
 .contact-icon { display: block; font-size: 35px; }
 
 .news .date { width: 85px; }
@@ -14095,7 +14108,7 @@ body { color: #3c4858; background-color: #fdfdfd; -webkit-text-size-adjust: 100%
 
 .table { color: #3c4858; }
 
-.navbar a { color: #3c4858 !important; }
+.navbar a { color: white !important; }
 
 footer a { color: #fafafa; }
 footer a:hover { color: #b71c1c; }
@@ -14109,7 +14122,7 @@ a:hover { text-decoration: none; }
 
 .navbar-brand a { color: #f8f9fa !important; }
 
-.navbar-active a { color: #b71c1c !important; }
+.navbar-active a { color: white !important; }
 
 .arrow-icon { color: #90a4ae; background: #90a4ae; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .arrow-icon:hover { color: #cbd4d9; background: #cbd4d9; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
@@ -14198,3 +14211,27 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
 .hljs-emphasis { font-style: italic; }
 
 .hljs-strong { font-weight: bold; }
+
+
+/* Custom CSS */
+
+
+#main {
+  max-width: 1350px;
+}
+#main {
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+  animation: intro 0.3s both;
+  animation-delay: 0.35s;
+}
+
+.link {
+  color: #ffb300 ;
+}
