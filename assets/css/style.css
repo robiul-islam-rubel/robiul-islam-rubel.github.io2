@@ -2758,6 +2758,7 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 
 .highlight table td { padding: 5px; }
 
+<<<<<<< HEAD
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -2770,6 +2771,8 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 }
 
 
+=======
+>>>>>>> cd3ea50b968a8936cb8fbeb5912369fe7acbecd8
 .highlight table pre { margin: 0; }
 
 .highlight .cm { color: #999988; font-style: italic; }
@@ -2893,4 +2896,7 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 .highlight .w { color: #bbbbbb; }
 
 .highlight { background-color: #f8f8f8; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd3ea50b968a8936cb8fbeb5912369fe7acbecd8
